@@ -1,0 +1,18 @@
+package com.company.lab1;
+
+import java.util.Scanner;
+
+public class Prob5 {
+    public static void main(String[] args) {
+        Scanner fin = new Scanner( System.in );
+        int n = fin.nextInt();
+
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                System.out.println("False");
+                return ;
+            }
+        }
+        System.out.println("True");
+    }
+}
