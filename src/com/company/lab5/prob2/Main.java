@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Album arr[] = new Album[3];
+        Album[] arr = new Album[3];
         arr[0] = new Album("Test", 1990, 2);
         arr[1] = new Album("Test", 1990, 1);
         arr[2] = new Album("Test", 1990, 4);
